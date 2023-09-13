@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+  <ul class="slideshow">
+    <li><span></span></li>
+    <li><span>2</span></li>
+    <li><span></span></li>
+    <li><span></span></li>
+    <li><span></span></li>
+  </ul>
+
+<!-- ==================navbar==============/ -->
+<nav class="navbar navbar-expand-lg bg-body-primary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><i class="fa-solid fa-plane rotate-scale-up"></i></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Contact
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#email">Email</a></li>
+              <li><a class="dropdown-item" href="#headquarter">HeadQuarter</a></li>
+              
+              <li><a class="dropdown-item" href="#booking">BookingNow</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-disabled="true" href="#about">About</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+<!-- =======================main-page/banner -->
+  <div class="container-fluid text-center">
+    <div class="row ">
+
+       <!-- <div class=" backgoundimg ">
+
+      </div>  -->
+      <div class="col-12 col-lg-6 image" >
+      
+        <picture>
+        <img class="insideimg" src="https://cdn.pixabay.com/photo/2020/06/02/06/29/ryanair-5249631_640.jpg" >
+      </picture>
+  
+        </div>
+      <!-- <div class="col-12  mainpageleft">
+        <section class="frontimg">
+            <div class="imgcontainer ">
+                <img class="insideimg" src="https://images.unsplash.com/photo-1631540710044-eba1ee07223e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cWF0YXIlMjBhaXJ3YXlzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60" alt="">
+            </div>
+        </section>
+    </div> -->
+      <div class="col-12  col-lg-6 mainpageright">
+        <div class="content" id="about">
+            <h1 id="flyhead" class="heading">Fly-Next</h1>
+            <h3 class="heading">Book private jet instantly</h3>
+            <h3 class="heading">Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto accusantium sequi, nobis dignissimos vitae quasi vel molestiae nostrum soluta, expedita sunt velit quaerat. adipisicing elit. Molestias nam, autem amet pariatur eaque soluta laudantium enim voluptatum sapiente ipsa!</h3>
+        <button class="button">Make-Yourtrip</button>  
+        </div>
+      </div>
+
+
+      <!-- ===================carts======= -->
+      <div class="col-12 col-md-6 card" >
+        <div data-aos="flip-down">
+
+        <div class="card">
+        <img src="https://media.istockphoto.com/id/1174933355/photo/check-in-cropped-image-of-young-businessman-in-formal-wear-working-on-laptop-and-holding.webp?b=1&s=170667a&w=0&k=20&c=pMb1nvxe-8OIl89tHg04uWy0WH3hP6D-jEe4SSDJYrA=" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">Pakistan-to-SaudiaArabia Today booking is available</p>
+          <p class="price">Ticket-Price:600$</p>
+          <button class="book">Book-Now</button>
+        </div>
+      </div>
+    </div>
+      </div>
+     
+          <div class="col-12 col-md-6 card" >
+            <div data-aos="flip-down">
+
+            <div class="card">
+            <img src="https://media.istockphoto.com/id/1220306548/photo/female-hands-holding-phone-app-online-shopping-and-credit-card.jpg?s=612x612&w=0&k=20&c=qYCgM6zjQjSbXeD2806jyCWP9gdtCsv-NhIQOmittO4=" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Pakistan-to-Usa Today booking is available</p>
+              <p class="price">Ticket-Price:1200$</p>
+              <button class="book">Book-Now</button>
+            </div>
+          </div>
+        </div>
+          </div>
+          <div class=" col-12 col-md-6 card" >
+            <div data-aos="flip-down">
+            <img src="https://images.unsplash.com/photo-1454496406107-dc34337da8d6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8ZmxpZ2h0JTIwYm9va2luZ3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Pakistan-to-Spain Today booking is available</p>
+              <p  class="price">Ticket-Price:1200$</p>
+              <button class="book">Book-Now</button>
+            </div>
+          </div>
+          </div>
+          <div class="col-12 col-md-6 card" >
+            <div data-aos="flip-down">
+
+              <img  src="https://media.istockphoto.com/id/1393093359/photo/search-for-air-travel-information-air-ticket-booking-for-travel.webp?b=1&s=170667a&w=0&k=20&c=0229zH56bfXXy-OBpwoC34oXNzkPjFKXKP-jWlLV1qo=" class="card-img-top" alt="...">
+              <div id="card-body" class="card-body">
+              <p class="card-text">Pakistan-to-UK Today booking is available</p>
+              <p  class="price">Ticket-Price:2300$</p>
+              <button class="book">Book-Now</button>
+            </div>
+          </div>
+          </div>
+          
+          <div class="col-12 companydescription" >
+            
+
+            <div class="pilats"><p class="counter">123</p>
+            <p>Professional-pilots</p></div>
+            <div class="jets"><p class="counter">234</p>
+              <p>jets</p></div>
+            <div class="airport"><p class="counter">456</p>
+              <p>Airport</p></div>
+            <div class="direction"><p class="counter">789</p>
+              <p>Directions</p></div>
+            </div>
+          
+        <!-- =====================footer================= -->
+        <div class="col-12 footer" >
+      
+
+        <section>
+<h1 class="contactheading">Contact-Us</h1>
+<p class="para contactheading">Email</p>
+<address class="address">muhammadriyansadiq77@gmail.com</address>
+<p class="para contactheading">Contact No#</p>
+<p class="address">(021)2345678</p>
+<p id="headquarter" class="para contactheading">Headquarter-Address</p>
+<address class="address">Qatar Airways Towers PO Box<br>
+  22550 DOHA, Qatar</address>
+  <div class="logo">
+    <a href="https://www.facebook.com/qatarairways/"><i class="fa-brands fa-facebook logo-fb"> </i></a>
+   <a href="https://www.youtube.com/channel/UCi8xUU_lg3zr8UcBXLdEheQ"><i class="fa-brands fa-youtube logo-red"></i></a> 
+    <a href="https://www.qatarairways.com/en-us/help.html"><i id="email" class="fa-solid fa-envelope logo-email"></i></a>
+    <a href="https://twitter.com/i/flow/login?redirect_after_login=%2Fqatarairways%2Fwith_replies"><i class="fa-brands fa-twitter logo-fb"></i></a>
+    <a href="https://www.linkedin.com/company/qatar-airways/?originalSubdomain=pk"><i class="fa-brands fa-linkedin logo-fb"></i></a>
+  </div>
+
+        </section>
+
+        </div>
+
+
+
+
+
+   
+  </div>
+  </div>
+
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js" integrity="sha512-ZKNVEa7gi0Dz4Rq9jXcySgcPiK+5f01CqW+ZoKLLKr9VMXuCsw3RjWiv8ZpIOa0hxO79np7Ec8DDWALM0bDOaQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js" integrity="sha512-d8F1J2kyiRowBB/8/pAWsqUl0wSEOkG5KATkVV4slfblq9VRQ6MyDZVxWl2tWd+mPhuCbpTB4M7uU/x9FlgQ9Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script>$('.counter').counterUp({
+      delay: 10,
+      time: 1600
+  });</script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+<script src="app.js"></script>    
+</body>
+</html>
